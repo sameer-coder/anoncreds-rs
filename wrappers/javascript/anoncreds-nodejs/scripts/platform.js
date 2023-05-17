@@ -8,6 +8,6 @@ const os = require('os')
 const platform = os.platform()
 
 // We swap win32 with windows as that is the key that we use
-const targetPlatform = platform == 'win32' ? 'windows' : platform
+const targetPlatform = 'windows'
 
-console.log(targetPlatform)
+console.log('targetPlatform', targetPlatform)
